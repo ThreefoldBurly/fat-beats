@@ -12,6 +12,8 @@ After cloning the repo add a `bin` directory to it and (on Linux) run commands:
 
 `javac -d bin -sourcepath src src/fatbeats/*/*.java`
 
+`java -cp bin fatbeats.server.Server`
+
 `java -cp bin fatbeats.main.Launcher`
 
 in a terminal.
